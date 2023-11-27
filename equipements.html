@@ -4,6 +4,8 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="style/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
         <link rel="stylesheet" type="text/css" href="style/css/main.css" />
         <title>Document</title>
     </head>
@@ -45,7 +47,7 @@
             </symbol>
         </svg>
 
-        <div class="section-1-home d-flex flex-column">
+        <div class="section-1-equipements d-flex flex-column">
             <div class="overlay">
                 <header class="container py-3">
                     <div class="d-flex pb-3 mb-4 border-bottom">
@@ -58,10 +60,10 @@
                             <span class="fs-4 fw-bold text-white mx-1 fm-philo">Biovert-Innovation</span>
                         </a>
                         <nav class="d-lg-inline-flex ms-auto d-none fm-philo text-center fs-17 justify-content-center align-items-center">
-                            <a href="index.html" class="me-3 d-flex fw-bold text-decoration-none green-link-active">Accueil</a>
+                            <a href="index.html" class="me-3 d-flex fw-bold text-white text-decoration-none green-link">Accueil</a>
                             <a href="about-us.html" class="me-3 fw-bold text-white text-decoration-none green-link">À propos</a>
                             <a href="services.html" class="me-3 fw-bold text-white text-decoration-none green-link">Services</a>
-                            <a href="equipements.html" class="me-3 fw-bold text-white text-decoration-none green-link">Équipements</a>
+                            <a href="equipements.html" class="me-3 fw-bold text-decoration-none green-link-active">Équipements</a>
                             <a href="galerie.html" class="me-3 fw-bold text-white text-decoration-none green-link">Galerie</a>
                             <a href="contact-us.html" class="fw-bold text-white text-decoration-none green-link">Contactez-nous</a>
                         </nav>
@@ -75,10 +77,10 @@
                             </div>
                             <div class="offcanvas-body">
                                 <ul class="fs-17">
-                                    <li class="m-1"><a href="index.html" class="ms-3 fw-bold text-decoration-none green-link-active">Accueil</a></li>
+                                    <li class="m-1"><a href="index.html" class="ms-3 text-black text-decoration-none green-link">Accueil</a></li>
                                     <li class="m-1"><a href="about-us.html" class="ms-3 text-black text-decoration-none green-link">À propos</a></li>
                                     <li class="m-1"><a href="services.html" class="ms-3 text-black text-decoration-none green-link">Services</a></li>
-                                    <li class="m-1"><a href="equipements.html" class="ms-3 text-black text-decoration-none green-link">Équipements</a></li>
+                                    <li class="m-1"><a href="equipements.html" class="ms-3 fw-bold text-decoration-none green-link-active">Équipements</a></li>
                                     <li class="m-1"><a href="galerie.html" class="ms-3 text-black text-decoration-none green-link">Galerie</a></li>
                                     <li class="m-1"><a href="contact-us.html" class="ms-3 text-black text-decoration-none green-link">Contactez-nous</a></li>
                                 </ul>
@@ -89,89 +91,158 @@
             </div>
             <div class="overlay-reverse mt-auto pb-4">
                 <div class="container">
-                    <h1 class="text-white w-75 fw-bold fs-2 fm-philo text-start">Donnez un élan à votre agriculture grâce à un accompagnement de qualité!</h1>
+                    <h1 class="text-white w-75 fw-bold fs-2 fm-philo text-start">Bénéficiez d’un matériel de pointe pour vos travaux agricoles.</h1>
                     <p class="text-white fs-6 fst-italic w-50">Contactez-nous par e-mail ou par téléphone.</p>
                     <a href="contact-us.html" type="button" class="btn btn-green fw-bold">Voir nos coordonnées</a>
                 </div>
             </div>
         </div>
 
-        <div class="section-2-home container mt-3 py-5">
-            <div class="d-flex">
-                <img src="img/tracteur-art.png" class="d-none d-md-block" style="max-height: 300px" />
-                <div class="ms-md-3">
-                    <h2 class="text-center fm-philo">Location de tracteurs</h2>
-                    <hr class="hr mx-auto text-danger my-4" />
-                    <div class="text-center">***</div>
-                    <div class="fs-5 text-center mt-3">Nous mettons à votre disposition des tracteurs robustes de très bonne qualité et des outils attelés qui vont vous permettre d’effectuer vos travaux agricoles beaucoup plus rapidement et d’obtenir de meilleurs résultats pour des rendements optimises.</div>
+        <div class="section-2-galerie my-5">
+            <h5 class="fm-philo text-center">Optez pour une variété de machines et d’outils attelés aux rôles diversifies, garantissant l’accomplissement mécanique de tous vos travaux</h5>
+            <hr class="hr mx-auto w-75 text-danger my-4" />
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card h-100">
+                            <img src="img/g-10.jpg" class="card-img -top rounded-2" alt="..." />
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Gyrobroyeur</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card h-100">
+                            <img src="img/g-1.jpg" class="card-img -top rounded-2" alt="..." />
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Charrue a 2 socs</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card h-100">
+                            <img src="img/g-2.jpg" class="card-img -top rounded-2" alt="..." />
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Charrue a 3 socs</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card h-100">
+                            <img src="img/g-3.jpg" class="card-img -top rounded-2" alt="..." />
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Pulvériseur</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card h-100">
+                            <img src="img/g-10.jpg" class="card-img -top rounded-2" alt="..." />
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Billonneuse</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card h-100">
+                            <img src="img/g-9.jpg" class="card-img- top" alt="..." />
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Semoir</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card h-100">
+                            <img src="img/g-8.jpg" class="card-img- top" alt="..." />
+                            <div class="card-footer">
+                                <small class="text-body-secondary7">Gratte</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card h-100">
+                            <img src="img/g-7.jpg" class="card-img-top" alt="..." />
+                            <div class="card-footer">
+                                <small class="text-body-secondary7">Remorque</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card h-100">
+                            <img src="img/g-6.jpg" class="card-img- top" alt="..." />
+                            <div class="card-footer">
+                                <small class="text-body-secondary7">Tronçonneuses</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card h-100">
+                            <img src="img/g-5.jpg" class="card-img- top" alt="..." />
+                            <div class="card-footer">
+                                <small class="text-body-secondary7">Tarières</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card h-100">
+                            <img src="img/g-4.jpg" class="card-img- top" alt="..." />
+                            <div class="card-footer">
+                                <small class="text-body-secondary7">Débrousailleuses manuelles</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card h-100">
+                            <img src="img/g-3.jpg" class="card-img- top" alt="..." />
+                            <div class="card-footer">
+                                <small class="text-body-secondary7">Poste a soudures</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card h-100">
+                            <img src="img/g-2.jpg" class="card-img- top" alt="..." />
+                            <div class="card-footer">
+                                <small class="text-body-secondary7">Atomiseur</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card h-100">
+                            <img src="img/g-1.jpg" class="card-img- top" alt="..." />
+                            <div class="card-footer">
+                                <small class="text-body-secondary7">Palan</small>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <!-- <div class="swiper-pagination"> -->
+                <!-- If we need pagination -->
+                <!-- <div class="swiper-pagination"></div> -->
+                <div class="swiper-button-prev d-md-block d-none"></div>
+                <div class="swiper-button-next d-md-block d-none"></div>
+                <!-- <div class="swiper-scrollbar"></div> -->
+                <!-- </div> -->
             </div>
         </div>
 
-        <div class="section-3-home">
-            <div class="overlay py-5">
+        <div class="section-3-equipements">
+            <div class="overlay">
                 <div class="container py-md-5">
                     <div class="row">
-                        <div class="col-md-7 py-5">
-                            <h2 class="text-white fm-philo">Location du matériel portatif</h2>
-                            <div class="fs-5 mt-2 text-white">Nous mettons a votre disposition du matériel portatif, a l’instar de tronçonneuse, de débrousailleuses manuelles, de tarières et autres qui vous permettrons d’effectuer la préparation de vos terrains dans les meilleurs conditions et de façon efficace.</div>
+                        <div class="col-10 py-4 mx-auto my-2 border-green">
+                            <h2 class="fm-philo text-white text-center">Nos réalisations agricoles en image</h2>
+                            <div class="mt-2 text-white fw-bold text-center">Retrouvez les photos des projets menés jusqu'ici.</div>
+                            <div class="d-flex justify-content-center">
+                                <a href="galerie.html" type="button" class="btn btn-green fw-bold mt-4">Consultez nos réalisations</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="section-4-home container my-5">
-            <h2 class="text-center fm-philo">Un atout incontournable</h2>
-            <!-- <div class="mt-2 text-center">Avec le labour et la préparation mécanique du sol, vos parcelles ont entre 2 à 3 mois ans risque d’être envahis par les herbes. Limitez donc les dépenses dues au désherbage d’entretien.</div> -->
-            <div class="row d-flex align-items-md-stretch">
-                <div class="col-md-6 my-3 p-1 rounded-3 d-flex justify-content-center justify-content-md-end">
-                    <video controls style="max-width: 80%">
-                        <source src="film/tracteur-en-labour.mp4" type="video/mp4" />
-                    </video>
-                </div>
-                <div class="col-md-6 py-3">
-                    <div class="my-1 my-md-3 text-md-start text-center">
-                        <svg class="bi green" width="16" height="16" aria-hidden="true"><use xlink:href="#check2-circle"></use></svg>
-                        <span class="ms-2">Avec le labour et la préparation mécanique du sol, vos parcelles ont entre 2 à 3 mois ans risque d’être envahis par les herbes. Limitez donc les dépenses dues au désherbage d’entretien.</span>
-                    </div>
-                    <div class="my-1 my-md-3 text-md-start text-center">
-                        <svg class="bi green" width="16" height="16" aria-hidden="true"><use xlink:href="#check2-circle"></use></svg>
-                        <span class="ms-2">Décuplez votre force de travail, défrichez plusieurs hectares en l’espace d’une journée.</span>
-                    </div>
-                    <div class="my-1 my-md-3 text-md-start text-center">
-                        <svg class="bi green" width="16" height="16" aria-hidden="true"><use xlink:href="#check2-circle"></use></svg>
-                        <span class="ms-2">Abattez, découpez et déracinez rapidement les arbres pour laisser vos parcelles propres</span>
-                    </div>
-                    <div class="my-1 my-md-3 text-md-start text-center">
-                        <svg class="bi green" width="16" height="16" aria-hidden="true"><use xlink:href="#check2-circle"></use></svg>
-                        <span class="ms-2">Faites plus 750 trous par jours pour une profondeur de près de 25cm.</span>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-2 text-center">En prime notre équipe d’entrepreneurs et agronomes vous donne des astuces pour le maintien de la fertilité de vos sols et pour l'organisation de vos activités.</div>
-        </div>
-
-        <div class="section-5-home">
-            <div class="overlay">
-                <div class="container py-5">
-                    <div class="row align-items-md-stretch">
-                        <div class="col-md-5 py-2 mx-auto my-2 border-green">
-                            <h4 class="text-white">Notre engagement</h4>
-                            <div class="mt-2 text-white">Découvrez les valeurs et la fierté d’une équipe qui se donne à 110% dans tout ce qu’elle entreprend!</div>
-                            <a href="about-us.html" type="button" class="btn btn-green fw-bolder mt-4">À propos de nous</a>
-                        </div>
-                        <div class="col-md-5 py-2 mx-auto my-2 border-green">
-                            <h4 class="text-white">Nos réalisations</h4>
-                            <div class="mt-2 text-white">Aillez un avant goût de l’efficacité de notre machinerie. Une image vaut mille mots!</div>
-                            <a href="galerie.html" type="button" class="btn btn-green fw-bolder mt-4">Vers la galerie</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="section-6-home bg-secondary">
+        <div class="section-6-equipements bg-secondary">
             <div class="container text-white pt-4">
                 <div class="row align-items-center justify-content-center pb-3 d-flex justify-content-center align-items-center">
                     <div class="col-md-auto my-1 my-md-2 d-flex justify-content-center align-items-center">
@@ -180,7 +251,7 @@
                                 <path d="M4727 8172 c-28 -17 -57 -67 -57 -99 0 -11 7 -42 15 -71 13 -44 29 -63 121 -149 58 -54 113 -111 123 -128 14 -26 16 -80 19 -413 l3 -383 -34 -32 c-77 -72 -71 -19 -77 -712 l-5 -620 -155 -2 c-263 -4 -837 -23 -995 -34 -1250 -83 -2172 -315 -2705 -680 -100 -68 -171 -136 -149 -143 8 -2 102 -7 209 -10 178 -5 285 -16 458 -47 56 -10 67 -16 105 -59 44 -49 110 -168 101 -182 -3 -4 -159 -8 -347 -8 -301 -1 -346 -3 -377 -18 -47 -23 -83 -92 -76 -146 8 -65 6 -66 -120 -66 l-113 0 -12 -37 c-21 -72 -23 -207 -3 -297 26 -119 31 -124 143 -129 50 -2 93 -6 96 -8 4 -4 7 -157 6 -286 -1 -58 -3 -62 -33 -81 -26 -16 -60 -21 -163 -27 -242 -12 -421 -47 -534 -105 -82 -41 -116 -73 -145 -135 l-26 -54 0 -520 0 -520 42 -46 c69 -75 78 -97 78 -203 0 -87 1 -93 23 -101 19 -7 26 -25 45 -110 15 -65 31 -110 46 -128 29 -35 40 -73 41 -148 3 -106 96 -295 150 -305 28 -5 59 -50 69 -100 8 -41 110 -155 209 -234 51 -40 105 -91 119 -113 15 -23 46 -56 70 -75 51 -41 179 -118 196 -118 20 0 124 -58 169 -94 51 -41 178 -85 277 -97 67 -7 96 -15 199 -56 41 -16 141 -21 382 -16 44 1 112 1 150 1 73 -1 172 21 240 52 63 28 104 40 180 51 83 11 205 68 279 129 27 23 92 62 145 87 82 39 107 57 180 132 48 48 96 102 109 119 16 21 32 32 48 32 59 0 135 71 194 181 31 58 32 63 15 75 -16 12 -16 15 6 53 13 23 38 49 58 59 45 24 91 107 126 230 21 71 24 96 16 106 -16 19 -6 56 38 146 l36 75 1 270 c1 198 -2 287 -13 334 -9 46 -10 68 -3 75 7 7 112 12 295 15 328 4 328 4 339 -73 4 -24 16 -56 26 -69 18 -22 29 -25 102 -28 l83 -4 120 -85 120 -85 262 -3 262 -3 3 -157 3 -157 553 -3 552 -2 9 22 c4 13 11 81 15 152 3 71 9 133 12 137 9 15 334 11 338 -3 43 -150 114 -314 140 -324 22 -8 71 -120 79 -179 13 -89 71 -194 191 -343 37 -47 55 -62 69 -58 24 6 72 -44 129 -132 50 -78 133 -149 349 -297 91 -63 172 -121 179 -130 22 -27 93 -72 177 -114 76 -37 132 -57 281 -101 40 -12 110 -41 155 -64 72 -38 132 -57 257 -82 19 -4 105 -8 190 -9 140 -2 163 -4 238 -30 67 -22 94 -26 145 -22 98 8 260 37 282 51 33 21 73 27 215 35 176 10 235 30 510 172 41 21 107 48 145 59 113 35 176 76 408 268 54 44 91 67 126 76 85 22 161 91 285 257 17 23 26 47 24 66 -2 32 70 138 102 148 32 10 108 101 144 174 57 112 96 218 96 259 0 50 43 159 77 194 24 25 33 28 95 28 57 0 69 -3 78 -20 22 -41 344 -119 437 -105 50 7 96 43 123 95 16 31 60 186 60 211 0 5 -23 9 -50 9 l-50 0 -35 -72 c-42 -86 -62 -110 -89 -106 -39 6 -59 62 -64 177 -5 130 -19 158 -98 197 -92 45 -186 22 -226 -56 -20 -38 -39 -53 -61 -45 -10 5 -16 34 -21 115 -7 121 -2 168 25 252 13 40 19 86 19 150 0 107 -24 273 -45 304 -20 31 -35 127 -34 219 1 46 -6 107 -15 145 -24 89 -93 250 -121 280 -35 38 -74 122 -89 192 -16 77 -34 120 -78 190 -52 80 -158 208 -173 208 -20 0 -109 109 -139 170 -14 30 -48 80 -76 110 -28 30 -49 58 -48 62 5 13 300 149 317 146 9 -2 22 -31 33 -78 21 -80 37 -105 80 -115 37 -9 51 18 39 82 -5 26 -14 60 -19 74 -6 14 -105 115 -222 225 -167 158 -221 215 -258 274 -60 97 -160 196 -295 292 -188 135 -302 194 -488 253 -227 72 -406 95 -786 102 -267 5 -303 8 -307 22 -3 9 -64 347 -135 751 -72 404 -144 813 -161 908 -17 95 -28 178 -25 183 4 5 112 9 255 9 l249 0 25 33 c123 162 -30 303 -406 376 -543 104 -1776 91 -2673 -30 -351 -47 -841 -137 -903 -166 -53 -25 -78 -95 -51 -145 6 -11 35 -31 65 -44 l54 -24 0 -280 c0 -267 1 -281 20 -300 26 -26 51 -25 83 1 l27 20 2 272 3 272 90 -3 c50 -2 91 -5 93 -7 2 -1 -38 -123 -87 -271 -193 -575 -330 -1255 -331 -1644 0 -41 -4 -81 -8 -88 -7 -9 -54 -12 -203 -10 l-194 3 -5 620 c-6 683 0 631 -69 702 l-31 33 0 439 0 439 -35 52 c-42 63 -199 234 -269 294 -51 43 -52 44 -79 28z m3058 -712 c215 -3 542 -9 728 -11 282 -4 340 -7 348 -19 28 -46 87 -233 113 -362 59 -296 44 -732 -38 -1096 -31 -139 -38 -152 -76 -152 -17 0 -30 4 -30 9 0 6 11 56 25 113 28 111 42 249 31 292 -4 18 -18 32 -41 42 -47 19 -59 46 -51 111 7 57 -1 81 -37 121 -54 59 -118 9 -198 -153 -89 -182 -123 -316 -100 -388 12 -34 10 -41 -41 -138 l-53 -103 -70 -23 c-38 -13 -78 -22 -88 -19 -10 2 -21 -2 -24 -10 -4 -11 -40 -14 -193 -14 -104 0 -195 -3 -204 -6 -13 -5 -16 -24 -16 -100 l0 -93 -75 -51 c-165 -111 -365 -301 -496 -470 -186 -239 -342 -544 -420 -819 -16 -58 -35 -108 -42 -113 -6 -4 -181 -7 -387 -5 l-375 2 -3 125 c-2 69 0 199 3 288 l7 164 167 136 c231 189 276 236 297 308 16 55 15 123 -1 179 -4 14 2 30 20 50 122 138 155 185 216 306 31 60 63 103 112 152 61 60 72 67 107 67 51 0 118 -27 249 -100 119 -67 161 -76 161 -35 0 14 -9 42 -19 63 -24 46 -622 642 -644 642 -27 0 -21 -38 38 -227 30 -97 55 -191 55 -207 -1 -42 -31 -105 -66 -137 -44 -39 -434 -279 -455 -279 -10 0 -22 7 -27 15 -16 30 -134 146 -164 161 l-30 16 5 311 c3 212 10 352 21 437 64 472 196 808 388 985 l62 58 461 -8 c253 -4 636 -11 850 -15z m-975 -1315 l95 -97 -45 -39 c-25 -21 -53 -38 -64 -36 -14 1 -31 33 -67 127 -27 69 -49 133 -49 143 0 28 25 9 130 -98z m310 -304 c121 -114 170 -174 156 -189 -4 -3 -28 5 -54 17 -59 29 -312 179 -332 197 -12 12 -8 20 30 59 25 25 50 44 57 43 6 -2 70 -59 143 -127z m-588 -4025 c-1 -51 -7 -83 -15 -88 -14 -9 -847 -11 -871 -2 -13 5 -16 23 -16 90 l0 84 453 -2 452 -3 -3 -79z" />
                             </g>
                         </svg>
-                        <span class="ms-2">Biovert-Innovation.2023</span>
+                        <span class="ms-2">iovert-Innovation.2023</span>
                     </div>
                     <div class="ms-md-3 col-md-auto my-1 my-md-2 d-flex justify-content-center align-items-center">
                         <svg class="bi green" width="18" height="18" aria-hidden="true"><use xlink:href="#globe2"></use></svg>
@@ -223,5 +294,51 @@
         </div>
 
         <script src="style/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1.08,
+                spaceBetween: 10,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                breakpoints: {
+                    640: {
+                        slidesPerView: 1.5,
+                        spaceBetween: 10,
+                    },
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                    1024: {
+                        slidesPerView: 2.5,
+                        spaceBetween: 30,
+                    },
+                },
+                // });
+                // const swiper = new Swiper(".mySwiper", {
+                // Optional parameters
+                direction: "horizontal",
+                loop: true,
+
+                // If we need pagination
+                pagination: {
+                    el: ".swiper-pagination",
+                },
+
+                // Navigation arrows
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+
+                // And if we need scrollbar
+                scrollbar: {
+                    el: ".swiper-scrollbar",
+                },
+            });
+        </script>
     </body>
 </html>
